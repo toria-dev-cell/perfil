@@ -1,13 +1,30 @@
 body{
     background-color:chocolate;
-    font-family:antiquewhite;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-div{
+div.principal{
     width:600px;
 }
 
-cabeçalho{
+div.cabecalho{
     border:2px solid azure;
     background-color: burlywood;
+}
+
+span.destaque-Vitoria{
+    color:crimson
+    font-family:;
+}
+
+h1.titulo-principal{
+    font-size: 2em;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-bottom: 0%;
+}
+
+div.bloco-pessoal{
+    background-color: burlywood;
+    border: 2px solid black;
 }

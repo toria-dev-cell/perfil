@@ -12,9 +12,10 @@ div.cabecalho{
     background-color: burlywood;
 }
 
-span.destaque-Vitoria{
-    color:crimson
-    font-family:;
+p.nome{
+    color:crimson;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 h1.titulo-principal{
@@ -22,6 +23,7 @@ h1.titulo-principal{
     font-weight: bolder;
     margin-top: 10px;
     margin-bottom: 0%;
+    text-align: center;
 }
 
 div.bloco-pessoal{
@@ -37,6 +39,55 @@ img.foto-perfil{
 
 a.link-externo{
     color:darkred;
-    text-decoration: line-through;
+    text-decoration: overline;
 }
 
+div.conteudo-extra{
+    background-color: burlywood;
+    border: 5px solid darkred;
+    padding: 20px;
+}
+
+ul.lista-hobbies{
+    padding-left:  20px;
+}
+
+li{
+    font-size: 15em;
+    font-weight:bolder;
+    margin: top 15px;
+    margin-bottom: 5px;
+}
+
+video{
+    width:100%;
+    margin-bottom: 20px;
+}
+
+tabela{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+tr{
+    border: 1px solid;
+}
+
+th{
+    background-color: darkkhaki;
+    color:brown;
+    padding: 1px; width: 15px; height: 14px;
+}
+
+td{
+    padding: 12px;
+    width: 50px;
+    color: orange;
+}
+link.navegacao{
+    text-align: center;
+    margin-top: 20px;
+}

@@ -28,3 +28,15 @@ div.bloco-pessoal{
     background-color: burlywood;
     border: 2px solid black;
 }
+
+img.foto-perfil{
+    max-width: 5px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+a.link-externo{
+    color:darkred;
+    text-decoration: line-through;
+}
+

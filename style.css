@@ -91,9 +91,18 @@ td{
     padding: 12px;
     width: 50px;
     height: 40px;
-    color: orange;
+    color: Brown;
 }
 .link-navegacao{
     text-align: center;
     margin-top: 20px;
 }
+a:link{
+    color: chocolate;
+}
+/* No exato momento em que o link é clicado */
+a:active{
+    color: #ffff00; /* Amarelo */
+}
+
+
